@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6906f065-fe20-4316-92de-fe8547e3aa7d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/FindingOddEvenArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollatzSequenceSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollatzSequenceSolution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CollatzSequenceSolution">
+  <component name="RunManager" selected="Application.FindingOddEvenArrays">
     <configuration name="CollatzSequenceSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollatzSequenceSolution" />
       <module name="Java_Training" />
@@ -60,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mango_Tree_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mango_Tree_Solution" />
+    <configuration name="FindingOddEvenArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindingOddEvenArrays" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindingOddEvenArrays" />
         <item itemvalue="Application.CollatzSequenceSolution" />
         <item itemvalue="Application.Collatz_Solution" />
         <item itemvalue="Application.Collatz_Sequence_Solution" />
         <item itemvalue="Application.PrintingEvenNumbers" />
-        <item itemvalue="Application.Mango_Tree_Solution" />
       </list>
     </recent_temporary>
   </component>
