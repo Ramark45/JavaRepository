@@ -8,27 +8,21 @@ public class Mango_Tree_Solution {
         Scanner s=new Scanner (System.in);
 
         System.out.print("Enter The Row Dimension :");
-        int a=s.nextInt();
+        int row=s.nextInt();
         System.out.print("Enter The Column Dimension :");
-        int b=s.nextInt();
+        int column=s.nextInt();
         System.out.println("Enter The Tree Number :");
-        int c=s.nextInt();
+        int tree_number=s.nextInt();
 
-        if(c%a==1)
-
-        {
-
-            System.out.println("yes, It's a Mango Tree.");
-
+        if(tree_number >= 1 && tree_number <=column){
+            System.out.println("It's a mango tree");
+        } else if ((tree_number-1)%column==0) {
+            System.out.println("It's a mango tree");
+        } else if (tree_number % column ==0) {
+            System.out.println("It's a mango tree");
         }
-
         else
-
-        {
-
-            System.out.println("No, It's not a mango tree.");
-
-        }
+            System.out.println("It's not a mango tree");
 
     }
 }
