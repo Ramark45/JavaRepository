@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6906f065-fe20-4316-92de-fe8547e3aa7d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collatz_Sequence_Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collatz_Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collatz_Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollatzSequenceSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollatzSequenceSolution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Collatz_Solution">
+  <component name="RunManager" selected="Application.CollatzSequenceSolution">
+    <configuration name="CollatzSequenceSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollatzSequenceSolution" />
+      <module name="Java_Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Collatz_Sequence_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collatz_Sequence_Solution" />
       <module name="Java_Training" />
@@ -49,13 +55,6 @@
     </configuration>
     <configuration name="Collatz_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Collatz_Solution" />
-      <module name="Java_Training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DayOf_TheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DayOf_TheWeek" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollatzSequenceSolution" />
         <item itemvalue="Application.Collatz_Solution" />
         <item itemvalue="Application.Collatz_Sequence_Solution" />
         <item itemvalue="Application.PrintingEvenNumbers" />
         <item itemvalue="Application.Mango_Tree_Solution" />
-        <item itemvalue="Application.DayOf_TheWeek" />
       </list>
     </recent_temporary>
   </component>
