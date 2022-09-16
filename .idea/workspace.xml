@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6906f065-fe20-4316-92de-fe8547e3aa7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/RangeOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwnExceptionCreation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OwnWrapperClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MagicSquareMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MagicSquareMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RangeOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RangeOfArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +42,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RangeOfArray">
-    <configuration name="FindingOddEvenArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindingOddEvenArrays" />
+  <component name="RunManager" selected="Application.MagicSquareMatrix">
+    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListExample" />
+      <module name="Java_Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestPalindrome" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -53,22 +64,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mango_Tree_Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mango_Tree_Solution" />
+    <configuration name="OwnExceptionCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OwnExceptionCreation" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PatternProgram" />
-      <module name="Java_Training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RangeOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RangeOfArray" />
+    <configuration name="OwnWrapperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OwnWrapperClass" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +80,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RangeOfArray" />
-        <item itemvalue="Application.Mango_Tree_Solution" />
-        <item itemvalue="Application.PatternProgram" />
         <item itemvalue="Application.MagicSquareMatrix" />
-        <item itemvalue="Application.FindingOddEvenArrays" />
+        <item itemvalue="Application.OwnWrapperClass" />
+        <item itemvalue="Application.OwnExceptionCreation" />
+        <item itemvalue="Application.ArrayListExample" />
+        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>

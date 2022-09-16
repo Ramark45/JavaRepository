@@ -11,7 +11,6 @@ public class RangeOfArray {
         for(int i=0;i<n;i++){
             array1[i]=input.nextInt();
         }
-        //int[] array2 = new int[n];
         Arrays.sort(array1);
         int minimum = array1[0];
         int maximum = array1[n-1];

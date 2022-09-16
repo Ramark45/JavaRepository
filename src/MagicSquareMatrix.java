@@ -1,25 +1,44 @@
 import java.util.Scanner;
-
 public class MagicSquareMatrix {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int size;
-        System.out.print("Enter the array size :");
-        size = input.nextInt();
-        int array1[][] = new int[size][size];
-
-        for(int i=0;i<array1.length;i++){
-            for(int j=0;j<array1.length;j++){
-                array1[i][j] = input.nextInt();
+        int n;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the Size of an array :");
+        n=sc.nextInt();
+        int[][] matrix=new int[n][n];
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++) {
+                matrix[i][j] = sc.nextInt();
             }
         }
-
-        for(int i=0;i<array1.length;i++){
-            for(int j=0;j<array1.length;j++){
-                System.out.print(array1[i][j]+" ");
-            }
-            System.out.println();
+        int forDiag=0, backDiag=0;
+        int[] rowSum=new int[n];
+        int[] colSum=new int[n];
+        for (int i=0;i<n;i++){
+            rowSum[i]=0;
+            colSum[i]=0;
         }
+        for (int i=0;i<n;i++){
+            for (int j=0;j<n;j++){
+                if (i==j)
+                    forDiag+=matrix[i][j];
+                if (i+j==n-1)
+                    backDiag+=matrix[i][j];
+                rowSum[i]+=matrix[i][j];
+                colSum[j]+=matrix[i][j];
+            }
+        }
+        int totalRowSum=0, totalColSum=0;
+        for (int i=0;i<n;i++){
+            totalRowSum+=rowSum[i];
+            totalColSum+=colSum[i];
+        }
+        totalRowSum=totalRowSum/n;
+        totalColSum=totalColSum/n;
+        if (totalColSum==totalRowSum&&totalColSum==forDiag&&totalColSum==backDiag)
+            System.out.println("It's a magic square.");
+        else
+            System.out.println("It's not a magic square");
 
     }
 }
