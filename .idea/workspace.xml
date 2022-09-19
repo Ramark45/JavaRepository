@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6906f065-fe20-4316-92de-fe8547e3aa7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GenericLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PeekingIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BrowserHistory">
+  <component name="RunManager" selected="Application.Movie">
     <configuration name="BrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BrowserHistory" />
       <module name="Java_Training" />
@@ -47,15 +46,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MagicSquareMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MagicSquareMatrix" />
+    <configuration name="Holiday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Holiday" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnExceptionCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OwnExceptionCreation" />
+    <configuration name="InnerClassMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClassMethod" />
+      <module name="Java_Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Movie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Movie" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,20 +74,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeekingIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PeekingIterator" />
-      <module name="Java_Training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BrowserHistory" />
-        <item itemvalue="Application.PeekingIterator" />
-        <item itemvalue="Application.MagicSquareMatrix" />
+        <item itemvalue="Application.Movie" />
+        <item itemvalue="Application.Holiday" />
         <item itemvalue="Application.OwnWrapperClass" />
-        <item itemvalue="Application.OwnExceptionCreation" />
+        <item itemvalue="Application.InnerClassMethod" />
+        <item itemvalue="Application.BrowserHistory" />
       </list>
     </recent_temporary>
   </component>
