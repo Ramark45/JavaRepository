@@ -24,22 +24,13 @@ public class LongestPrefix {
 
     public static void main(String args[]) {
 
-        // Your code goes here
+        LongestPrefix ob = new LongestPrefix();
 
-        Main ob = new Main();
-
-        String s[] = {"flower", "flow", "flight"};
-
-        System.out.println(ob.longestCommonPrefix(s));
+        String arr[] = {"flower", "flow", "flight"};
+        String arr2[] ={"dog","racecar","car"};
+        System.out.println(ob.longestCommonPrefix(arr));
+        System.out.println(ob.longestCommonPrefix(arr2));
 
     }
 }
 
-
-
-
-class Main {
-
-
-
-}
