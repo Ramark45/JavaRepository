@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6906f065-fe20-4316-92de-fe8547e3aa7d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/UpperBoundWildcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UpperBoundWildcard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericClassExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +39,23 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WildCardProblem">
+  <component name="RunManager" selected="Application.GenericClassExample">
+    <configuration name="GenericClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericClassExample" />
+      <module name="Java_Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Holiday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Holiday" />
+      <module name="Java_Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestPrefix" />
-      <module name="Java_Training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Java_Training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MysteryColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MysteryColor" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericClassExample" />
+        <item itemvalue="Application.Holiday" />
         <item itemvalue="Application.WildCardProblem" />
         <item itemvalue="Application.UpperBoundWildcard" />
         <item itemvalue="Application.LongestPrefix" />
-        <item itemvalue="Application.MysteryColor" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
