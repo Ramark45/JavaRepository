@@ -38,14 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UpperBoundWildcard">
-    <configuration name="Ghost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ghost" />
-      <module name="Java_Training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WildCardProblem">
     <configuration name="LongestPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestPrefix" />
       <module name="Java_Training" />
@@ -74,13 +67,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WildCardProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WildCardProblem" />
+      <module name="Java_Training" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WildCardProblem" />
         <item itemvalue="Application.UpperBoundWildcard" />
         <item itemvalue="Application.LongestPrefix" />
         <item itemvalue="Application.MysteryColor" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Ghost" />
       </list>
     </recent_temporary>
   </component>
