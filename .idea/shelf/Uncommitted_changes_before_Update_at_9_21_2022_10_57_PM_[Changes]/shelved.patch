@@ -1,0 +1,64 @@
+Index: src/Movie.java
+===================================================================
+diff --git a/src/Movie.java b/src/Movie.java
+--- a/src/Movie.java	
++++ b/src/Movie.java	
+@@ -9,35 +9,41 @@
+         studio = s;
+         rating = r;
+     }
+-
+     public Movie (String t, String s) {
+         title = t;
+         studio = s;
+         rating = "PG";
+     }
+-
+-    public static Movie[] getPG(Movie[] mov) {
+-        Movie[] pgMov = new Movie[mov.length];
+-        int newArrayIndex = 0;
+-        for (int i = 0; i < mov.length; i++) {
+-            if (mov[i].rating.equals("PG")) {
+-                pgMov[newArrayIndex] = mov[i];
+-                newArrayIndex++;
++    public static Movie[] getPG(Movie[] movie) {
++        Movie[] pgMov = new Movie[movie.length];
++        int Index = 0;
++        for (int i = 0; i < movie.length; i++) {
++            if (movie[i].rating.equals("PG")) {
++                pgMov[Index] = movie[i];
++                Index++;
+             }
+         }
+         return pgMov;
+     }
+-
+     public static void main(String[] args) {
+-        Movie movi = new Movie("Casino Royale","Eon Productions","PG-13");
+-        //Movie mov1 = new Movie("Casino","Productions","PG-14");
+-        Movie[] movie = new Movie[1];
+-        movie[0]=movi;
+-        //movie[1]=mov1;
+-        System.out.println(getPG(movie));
++        Movie obj = new Movie("Casino Royale\n","Eon\n" + "Productions","PG");
++        Movie obj1 = new Movie("Casino\n","Eon\n" + "Productions","PG");
+ 
++        Movie[] list = new Movie[2];
++        list[0] = obj;
++        list[1] = obj1;
++        Movie[] lists = getPG(list);
+ 
++        for(int i=0; i< lists.length;i++)
++        {
++            if(list[i]!=null) {
++                System.out.println(lists[i].title + lists[i].studio + lists[i].rating);
++                System.out.println();
++            }
++        }
++
++
+     }
+-   // Movie mov = new Movie("Casino Royale","Eon Productions","PG-13");
++
+ 
+ }

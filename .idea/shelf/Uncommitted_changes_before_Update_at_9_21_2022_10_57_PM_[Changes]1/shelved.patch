@@ -1,0 +1,535 @@
+Index: src/PatternProgram.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/PatternProgram.java b/src/PatternProgram.java
+--- a/src/PatternProgram.java	
++++ b/src/PatternProgram.java	
+@@ -5,8 +5,6 @@
+     {
+         int i,j,n=5;
+         Scanner sc = new Scanner(System.in);
+-        //System.out.println("Enter the no of lines");
+-        //n=sc.nextInt();
+         for(i=1;i<=n;i++)
+         {
+             for(j=1;j<=i;j++)
+Index: src/Name.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Name.java b/src/Name.java
+--- a/src/Name.java	
++++ b/src/Name.java	
+@@ -1,4 +1,4 @@
+-public class NameMe {
++class NameMe {
+     String firstName;
+     String lastName;
+     String name;
+@@ -11,7 +11,7 @@
+ public class Name {
+ 
+     public static void main(String[] args) {
+-        NameMe obj = new NameMe("John", "Doe");
++        NameMe obj = new NameMe("Ramar", "Kalangiam");
+         System.out.println(obj.firstName);
+         System.out.println(obj.lastName);
+         System.out.println(obj.name);
+Index: src/MysteryColorAnalyzer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/MysteryColorAnalyzer.java b/src/MysteryColorAnalyzer.java
+--- a/src/MysteryColorAnalyzer.java	
++++ b/src/MysteryColorAnalyzer.java	
+@@ -1,6 +1,7 @@
+ import java.util.List;
+ 
+-public interface MysteryColorAnalyszer {
+-    int numberOfDistinctColor(List<Color> mysterycolor);
+-    colorOccurence(List<Color>mysterycolor,Color color);
++interface MysteryColorAnalyzer {
++    int numberOfDistinctColors(List<Colors> mysteryColors);
++    int colorOccurrence(List<Colors>mysteryColors,Colors color);
++
+ }
+Index: src/LongestPrefix.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LongestPrefix.java b/src/LongestPrefix.java
+--- a/src/LongestPrefix.java	
++++ b/src/LongestPrefix.java	
+@@ -1,2 +1,21 @@
+-package PACKAGE_NAME;public class LongestPrefix {
+-}
++import java.lang.*;
++class LongestPrefix {
++    public String longestCommonPrefix(String Str[]) {
++        if (Str.length == 0)
++            return "";
++        String prefix = Str[0];
++        for (int i = 1; i < Str.length; i++)
++            while (Str[i].indexOf(prefix) != 0) {
++                prefix = prefix.substring(0, prefix.length() - 1);
++                if (prefix.isEmpty()) return "";
++            }
++        return prefix;
++    }
++    public static void main(String args[]) {
++        LongestPrefix lp = new LongestPrefix();
++        String arr[] = {"flower", "flow", "flight"};
++        String arr2[] ={"dog", "racecar","car"};
++        System.out.println(lp.longestCommonPrefix(arr));
++        System.out.println(lp.longestCommonPrefix(arr2));
++    }
++}
+\ No newline at end of file
+Index: src/Ghost.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ghost.java b/src/Ghost.java
+--- a/src/Ghost.java	
++++ b/src/Ghost.java	
+@@ -1,2 +1,21 @@
+-package PACKAGE_NAME;public class Ghost {
++import java.util.Random;
++class Color
++{
++    String[] Colors = {"White", "Yellow", "Purple", "Red"};
++    public String RandomColor()
++    {
++        Random random = new Random();
++        int ColorIndex = random.nextInt(Colors.length);
++        String SelectedColor = Colors[ColorIndex];
++        return SelectedColor;
++    }
++
++}
++public class Ghost {
++    public static void main(String[] args) {
++        Color obj1 = new Color();
++        Color obj2 = new Color();
++        System.out.println(obj1.RandomColor());
++        System.out.println(obj2.RandomColor());
++    }
+ }
+Index: src/WildCardProblem.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/WildCardProblem.java b/src/WildCardProblem.java
+--- a/src/WildCardProblem.java	
++++ b/src/WildCardProblem.java	
+@@ -1,2 +1,22 @@
+-package PACKAGE_NAME;public class WildCardProblem {
++import java.util.ArrayList;
++import java.util.List;
++public class WildCardProblem {
++
++        public static void main(String[] args) {
++            List<Double> l1=new ArrayList<>();
++            l1.add(3.2);
++            l1.add(6.5);
++            l1.add(8.6);
++            print(l1);
++            List<String> sl=new ArrayList<>();
++            sl.add("Ramar");
++            sl.add("Tamilnadu");
++            sl.add("627808");
++            sl.add("9003752984");
++            print(sl);
++        }
++        public static void print(List<?> AllElements)
++        {
++            System.out.println(AllElements);
++        }
+ }
+Index: src/UpperBoundWildcard.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/UpperBoundWildcard.java b/src/UpperBoundWildcard.java
+--- a/src/UpperBoundWildcard.java	
++++ b/src/UpperBoundWildcard.java	
+@@ -1,2 +1,21 @@
+-package PACKAGE_NAME;public class UpperBoundWildcard {
++import java.util.ArrayList;
++import java.util.List;
++
++public class UpperBoundWildcard {
++    public static void print(List<? extends Number> AllElements)
++    {
++        System.out.println(AllElements);
++    }
++
++    public static void main(String[] args) {
++        List<Integer> il=new ArrayList<>();
++        il.add(10);
++        il.add(20);
++        print(il);
++        List<Double> dl=new ArrayList<>();
++        dl.add(1.5);
++        dl.add(5.4);
++        dl.add(3.5);
++        print(dl);
++    }
+ }
+Index: src/LowerBoundWildcard.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LowerBoundWildcard.java b/src/LowerBoundWildcard.java
+--- a/src/LowerBoundWildcard.java	
++++ b/src/LowerBoundWildcard.java	
+@@ -1,2 +1,22 @@
+-package PACKAGE_NAME;public class LowerBoundWildcard {
++import java.util.ArrayList;
++import java.util.List;
++
++public class LowerBoundWildcard {
++    public static void print(List<? super Integer> AllElements)
++    {
++        System.out.println(AllElements);
++    }
++
++    public static void main(String[] args) {
++        List<Integer> il=new ArrayList<>();
++        il.add(10);
++        il.add(20);
++        print(il);
++        List<Number> dl=new ArrayList<>();
++        dl.add(1.5);
++        dl.add(5.4);
++        dl.add(3.5);
++        print(dl);
++    }
+ }
++
+Index: src/EngineeringStudent.java
+===================================================================
+diff --git a/src/EngineeringStudent.java b/src/EngineeringStudent.java
+new file mode 100644
+--- /dev/null	
++++ b/src/EngineeringStudent.java	
+@@ -0,0 +1,19 @@
++class phoneNumber{
++    String name = "Ramar Kalangiam K";
++    long number = 9003752984l;
++}
++
++class Address extends phoneNumber{
++    String District = "Tirunelveli";
++    String State = "Tamilnadu";
++}
++
++public class EngineeringStudent extends  Address{
++    public static void main(String[] args) {
++        EngineeringStudent es = new EngineeringStudent();
++        System.out.println(es.name);
++        System.out.println(es.District);
++        System.out.println(es.State);
++        System.out.println(es.number);
++    }
++}
+Index: src/MysteryClassSolution.java
+===================================================================
+diff --git a/src/MysteryClassSolution.java b/src/MysteryClassSolution.java
+new file mode 100644
+--- /dev/null	
++++ b/src/MysteryClassSolution.java	
+@@ -0,0 +1,20 @@
++import java.awt.*;
++import java.util.ArrayList;
++import java.util.Collection;
++import java.util.Collections;
++import java.util.List;
++
++public class MysteryClassSolution {
++    public static void main(String[] args) {
++        List <String> Colors = new ArrayList<String>(4);
++        Colors.add("GREEN");
++        Colors.add("BLUE");
++        Colors.add("RED");
++        Colors.add("GREEN");
++
++        System.out.println(Collections.frequency(Colors,"Green"));
++    }
++}
++
++
++
+Index: src/Rectangle.java
+===================================================================
+diff --git a/src/Rectangle.java b/src/Rectangle.java
+new file mode 100644
+--- /dev/null	
++++ b/src/Rectangle.java	
+@@ -0,0 +1,18 @@
++class PerimeterOfShapes {
++    int perimeter(int length,int width){
++        System.out.print("Perimeter of Rectangle is :");
++        return 2*(length+width);
++    }
++    float perimeter(float radius){
++        System.out.print("Perimeter of Circle is :");
++        return (float) (2*3.14*radius);
++    }
++}
++
++public class Rectangle {
++    public static void main(String[] args) {
++        PerimeterOfShapes ps = new PerimeterOfShapes();
++        System.out.println(ps.perimeter(10,20));
++        System.out.println(ps.perimeter(20f));
++    }
++}
+Index: src/MysteryColor.java
+===================================================================
+diff --git a/src/MysteryColor.java b/src/MysteryColor.java
+new file mode 100644
+--- /dev/null	
++++ b/src/MysteryColor.java	
+@@ -0,0 +1,42 @@
++import java.util.List;
++import java.util.ArrayList;
++
++public class MysteryColor implements MysteryColorAnalyzer {
++    @Override
++    public int numberOfDistinctColors(List<Colors> mysteryColors) {
++        ArrayList<Colors> mysteryColorFound = new ArrayList<>();
++        for (Colors color : mysteryColors) {
++            if (!mysteryColorFound.contains(color)) {
++                mysteryColorFound.add(color);
++            }
++        }
++        return mysteryColorFound.size();
++    }
++
++    @Override
++    public int colorOccurrence(List<Colors> mysteryColors, Colors color) {
++        int number = 0;
++        for (Colors cl : mysteryColors) {
++            if (cl.equals(color))
++                number++;
++        }
++        return number;
++    }
++
++    public static void main(String[] args) {
++        ArrayList<Colors> list = new ArrayList<>(5);
++        list.add(Colors.RED);
++        list.add(Colors.BLUE);
++        list.add(Colors.GREEN);
++        list.add(Colors.BLUE);
++        list.add(Colors.GREEN);
++        System.out.println(list);
++        System.out.println(new MysteryColor().numberOfDistinctColors(list));
++        System.out.println(new MysteryColor().colorOccurrence(list,Colors.BLUE));
++    }
++}
++enum Colors{
++    RED,BLUE,GREEN;
++}
++
++
+Index: src/HotelMenuInheritance.java
+===================================================================
+diff --git a/src/HotelMenuInheritance.java b/src/HotelMenuInheritance.java
+new file mode 100644
+--- /dev/null	
++++ b/src/HotelMenuInheritance.java	
+@@ -0,0 +1,28 @@
++class Veg{
++    String item1 = "Tomato Rice";
++    public void AvailableItems(){
++        System.out.println("Veg Meals");
++        System.out.println("Curd Rice");
++    }
++
++}
++class NonVeg extends Veg{
++    String item2 = "Briyani";
++    public void AvailableNonvegItems(){
++        System.out.println("Chicken");
++        System.out.println("Mutton");
++    }
++}
++
++public class HotelMenuInheritance extends NonVeg{
++    public static void main(String[] args) {
++        HotelMenuInheritance hm = new HotelMenuInheritance();
++        System.out.println("Availabe Veg Foods");
++        System.out.println(hm.item1);
++        hm.AvailableItems();
++        System.out.println("Available Non veg Foods");
++        System.out.println(hm.item2);
++        hm.AvailableNonvegItems();
++
++    }
++}
+Index: src/GenericClassExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/GenericClassExample.java b/src/GenericClassExample.java
+--- a/src/GenericClassExample.java	
++++ b/src/GenericClassExample.java	
+@@ -1,2 +1,16 @@
+-package PACKAGE_NAME;public class GenericClassExample {
++public class GenericClassExample <generic>{
++    generic g;
++    public GenericClassExample(generic g){
++        this.g=g;
++    }
++    public generic getG(){
++        return g;
++    }
++
++    public static void main(String[] args) {
++        GenericClassExample<String> gen1 = new GenericClassExample<String>("This is Generic method");
++        GenericClassExample<Integer>gen2 = new GenericClassExample<Integer>(100);
++        System.out.println(gen1.getG());
++        System.out.println(gen2.getG());
++    }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,7 +5,20 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="6906f065-fe20-4316-92de-fe8547e3aa7d" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/src/GenericClassExample.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Ghost.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LongestPrefix.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/LowerBoundWildcard.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/MysteryColorAnalyzer.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Name.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/UpperBoundWildcard.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/WildCardProblem.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/EncapsulationExample.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/EncapsulationUsage.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/GenericLibrary.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movie.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/PatternProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PatternProgram.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -15,8 +28,8 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+-        <option value="Interface" />
+         <option value="Class" />
++        <option value="Interface" />
+       </list>
+     </option>
+   </component>
+@@ -38,37 +51,37 @@
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+   }
+ }</component>
+-  <component name="RunManager" selected="Application.Movie">
+-    <configuration name="BrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="BrowserHistory" />
++  <component name="RunManager" selected="Application.MysteryColor">
++    <configuration name="Ghost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Ghost" />
+       <module name="Java_Training" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Holiday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Holiday" />
++    <configuration name="LongestPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="LongestPrefix" />
+       <module name="Java_Training" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="InnerClassMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="InnerClassMethod" />
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main" />
+       <module name="Java_Training" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Movie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="Movie" />
++    <configuration name="MysteryColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="MysteryColor" />
+       <module name="Java_Training" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="OwnWrapperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="OwnWrapperClass" />
++    <configuration name="UpperBoundWildcard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="UpperBoundWildcard" />
+       <module name="Java_Training" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -76,11 +89,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Movie" />
+-        <item itemvalue="Application.Holiday" />
+-        <item itemvalue="Application.OwnWrapperClass" />
+-        <item itemvalue="Application.InnerClassMethod" />
+-        <item itemvalue="Application.BrowserHistory" />
++        <item itemvalue="Application.MysteryColor" />
++        <item itemvalue="Application.LongestPrefix" />
++        <item itemvalue="Application.Main" />
++        <item itemvalue="Application.Ghost" />
++        <item itemvalue="Application.UpperBoundWildcard" />
+       </list>
+     </recent_temporary>
+   </component>
+Index: src/Vehicle.java
+===================================================================
+diff --git a/src/Vehicle.java b/src/Vehicle.java
+new file mode 100644
+--- /dev/null	
++++ b/src/Vehicle.java	
+@@ -0,0 +1,17 @@
++class BMW{
++    public void SpeedofVehicle(){
++        System.out.println("Speed of BMW is 250 Km/hr");
++    }
++}
++class Innova extends BMW{
++    public void SpeedofVehicle(){
++        System.out.println("Speed of Innova is 180Km/hr");
++    }
++}
++
++public class Vehicle {
++    public static void main(String[] args) {
++        BMW bmw = new Innova();
++        bmw.SpeedofVehicle();
++    }
++}

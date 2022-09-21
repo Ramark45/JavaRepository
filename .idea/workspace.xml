@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -38,37 +38,37 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Movie">
-    <configuration name="BrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BrowserHistory" />
+  <component name="RunManager" selected="Application.MysteryColor">
+    <configuration name="Ghost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ghost" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Holiday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Holiday" />
+    <configuration name="LongestPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestPrefix" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClassMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClassMethod" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Movie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Movie" />
+    <configuration name="MysteryColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MysteryColor" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OwnWrapperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OwnWrapperClass" />
+    <configuration name="UpperBoundWildcard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpperBoundWildcard" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Movie" />
-        <item itemvalue="Application.Holiday" />
-        <item itemvalue="Application.OwnWrapperClass" />
-        <item itemvalue="Application.InnerClassMethod" />
-        <item itemvalue="Application.BrowserHistory" />
+        <item itemvalue="Application.MysteryColor" />
+        <item itemvalue="Application.LongestPrefix" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ghost" />
+        <item itemvalue="Application.UpperBoundWildcard" />
       </list>
     </recent_temporary>
   </component>
