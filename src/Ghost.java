@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Ghost {
+public class Ghost {
+
 }

@@ -1,6 +1,6 @@
 import java.util.List;
+interface MysteryColorAnalyzer {
+    int numberOfDistinctColors(List<Colors> mysterColors);
+    int colorOccurrence(List<Colors>mysteryColors,Colors color);
 
-public interface MysteryColorAnalyszer {
-    int numberOfDistinctColor(List<Color> mysterycolor);
-    colorOccurence(List<Color>mysterycolor,Color color);
 }
