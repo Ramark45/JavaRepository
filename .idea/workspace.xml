@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6906f065-fe20-4316-92de-fe8547e3aa7d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpperBoundWildcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UpperBoundWildcard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LongestPrefix">
+  <component name="RunManager" selected="Application.UpperBoundWildcard">
     <configuration name="Ghost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ghost" />
       <module name="Java_Training" />
@@ -77,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UpperBoundWildcard" />
         <item itemvalue="Application.LongestPrefix" />
         <item itemvalue="Application.MysteryColor" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ghost" />
-        <item itemvalue="Application.UpperBoundWildcard" />
       </list>
     </recent_temporary>
   </component>
