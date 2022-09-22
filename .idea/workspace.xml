@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6906f065-fe20-4316-92de-fe8547e3aa7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LambdaExpressionWithParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyncThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LowerBoundWildcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LowerBoundWildcard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintingName.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,30 +40,30 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LambdaExpressionWithParameters">
-    <configuration name="BrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BrowserHistory" />
+  <component name="RunManager" selected="Application.PeekingIterator">
+    <configuration name="GenericLibraryMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericLibraryMedia" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExpressionWithParameters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LambdaExpressionWithParameters" />
+    <configuration name="LowerBoundWildcard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LowerBoundWildcard" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading" />
+    <configuration name="Media" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Media" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RunnableThread" />
+    <configuration name="PeekingIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PeekingIterator" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaExpressionWithParameters" />
+        <item itemvalue="Application.PeekingIterator" />
+        <item itemvalue="Application.LowerBoundWildcard" />
+        <item itemvalue="Application.GenericLibraryMedia" />
         <item itemvalue="Application.SyncThread" />
-        <item itemvalue="Application.RunnableThread" />
-        <item itemvalue="Application.MultiThreading" />
-        <item itemvalue="Application.BrowserHistory" />
+        <item itemvalue="Application.Media" />
       </list>
     </recent_temporary>
   </component>
