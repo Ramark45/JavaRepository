@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6906f065-fe20-4316-92de-fe8547e3aa7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaAssessment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaAssessment2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineElectronicStore/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineElectronicStore/Managers/CredentialsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineElectronicStore/Managers/ProductsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineElectronicStore/Models/Credentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineElectronicStore/Models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineElectronicStore/Models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineElectronicStore/Models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OnlineElectronicStore/classes/Operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaAssessment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaAssessment2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JavaAssessment2">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="Assessment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assessment" />
       <module name="Java_Training" />
@@ -50,13 +57,6 @@
     </configuration>
     <configuration name="Indice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Indice" />
-      <module name="Java_Training" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndicesSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IndicesSum" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,13 +76,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OnlineElectronicStore.MainClass" />
+      <module name="Java_Training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OnlineElectronicStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.JavaAssessment2" />
         <item itemvalue="Application.JavaAssessment" />
         <item itemvalue="Application.Indice" />
         <item itemvalue="Application.Assessment" />
-        <item itemvalue="Application.IndicesSum" />
       </list>
     </recent_temporary>
   </component>
