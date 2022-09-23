@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6906f065-fe20-4316-92de-fe8547e3aa7d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JavaAssessment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaAssessment2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LowerBoundWildcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LowerBoundWildcard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrintingName.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,37 +40,37 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PeekingIterator">
-    <configuration name="GenericLibraryMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericLibraryMedia" />
+  <component name="RunManager" selected="Application.JavaAssessment2">
+    <configuration name="Assessment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assessment" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowerBoundWildcard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LowerBoundWildcard" />
+    <configuration name="Indice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Indice" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Media" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Media" />
+    <configuration name="IndicesSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IndicesSum" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeekingIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PeekingIterator" />
+    <configuration name="JavaAssessment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAssessment" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SyncThread" />
+    <configuration name="JavaAssessment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaAssessment2" />
       <module name="Java_Training" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PeekingIterator" />
-        <item itemvalue="Application.LowerBoundWildcard" />
-        <item itemvalue="Application.GenericLibraryMedia" />
-        <item itemvalue="Application.SyncThread" />
-        <item itemvalue="Application.Media" />
+        <item itemvalue="Application.JavaAssessment2" />
+        <item itemvalue="Application.JavaAssessment" />
+        <item itemvalue="Application.Indice" />
+        <item itemvalue="Application.Assessment" />
+        <item itemvalue="Application.IndicesSum" />
       </list>
     </recent_temporary>
   </component>
